@@ -1,0 +1,76 @@
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: Helvetica;}
+
+/*Cabeçalho*/
+header{
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 10px solid black;
+}
+
+.cabecalho{
+    display: flex;
+}
+
+/*Grid de produtos*/
+.container{
+    background-color: #eee;
+    min-height: 80vh;
+    padding: 60px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0%; /*Afasta a imagem do conteúdo*/
+    background-position: center;
+    background-size: cover; 
+}
+
+/*Rodapé*/
+footer{
+    background-color: #3db36b;
+    color: #fff;
+    border-top: 10px solid #000000;
+    padding: 80px;
+}
+
+.card{
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+
+
+h3{
+    margin-bottom: 10px;
+    color: #3db36b;
+    border-left: 5px solid #0f642f;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.btn{
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c8adb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn2{
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2375af;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
